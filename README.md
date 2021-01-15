@@ -1,4 +1,4 @@
-MODOMAX is a new repository for application of computational structural biology tools and programs.
+MODOMAX is a new repository for applications of computational structural biology tools and programs.
 
 MODOMAX is constituted of a bundle of Bash scripts and python3 scripts that provide an automatized workflow.
 
