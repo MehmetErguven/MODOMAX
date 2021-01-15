@@ -1,6 +1,6 @@
-MODOMAX is a new repository for computational structural biology scripts.
+MODOMAX is a new repository for application of computational structural biology tools and programs.
 
-MODOMAX is constituted of python3 scripts and shell (BASH) scripts.
+MODOMAX is constituted of a bundle of python3 scripts and shell (BASH) scripts that provide an automatized workflow.
 
 
 ## Dependencies:
@@ -9,18 +9,22 @@ MODOMAX is constituted of python3 scripts and shell (BASH) scripts.
 MODOMAX depends on MODELLER for homology modeling. MODELLER is a program for comparative protein structure modeling by satisfaction of spatial restraints.
 
     - Please refer to the following web page for further information about the program and how it has to be cited:
+    
     https://salilab.org/modeller/
 
     - Please refer to the following web page for downloads and license registry:
+    
     https://salilab.org/modeller/download_installation.html
 
     - Please refer to the following web page to get to the links to the manuals, frequently asked questions (FAQs), and tutorials:
+    
     https://salilab.org/modeller/documentation.html
 
 - **pdb-tools:**
 MODOMAX depends on pdb-tools in order to prepare "clean" input coordinate files for MODELLER to use.
     
     - Please refer to the following web page for further information about pdb tools and how it has to be cited:
+    
     https://github.com/JoaoRodrigues/pdb-tools
     
     After cloning that repository, copy the python scripts within the subfolder named "pdbtools" into the subdirectory of MODAMAX, which is also named pdbtools.
@@ -39,17 +43,13 @@ There are four "master" shell scripts located in the "MODOMAX_scripts" directory
 
 The master scripts are:
 
-- **automatic_monomer_build.sh:**
-    Used for monomer model building.
+- **automatic_monomer_build.sh:** Used for monomer model building.
 
-- **automatic_monomer_build_then_refine_loops.sh:**
-    Used for custom loop refinement of the readily built monomer models.
+- **automatic_monomer_build_then_refine_loops.sh:** Used for custom loop refinement of the readily built monomer models.
 
-- **automatic_homodimer_build.sh:**
-    Used for homodimer model building.
+- **automatic_homodimer_build.sh:** Used for homodimer model building.
 
-- **automatic_homodimer_build_then_refine_loops.sh:**
-    Used for custom loop refinement of the readily built homodimer models.
+- **automatic_homodimer_build_then_refine_loops.sh:** Used for custom loop refinement of the readily built homodimer models.
 
 ## Usage:
 
