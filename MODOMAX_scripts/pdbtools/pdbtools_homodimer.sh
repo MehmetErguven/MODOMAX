@@ -44,12 +44,12 @@ sed -i '/MSE/ s/HETATM/ATOM  /' *.pdb
 
 for i in *.pdb;
 do
-	python ~/CSB_scripts/pdbtools/pdb_delhetatm.py $i | 
-	python ~/CSB_scripts/pdbtools/pdb_selaltloc.py | 
-	python ~/CSB_scripts/pdbtools/pdb_occ.py | 
-	python ~/CSB_scripts/pdbtools/pdb_chain.py -A | 
-	python ~/CSB_scripts/pdbtools/pdb_reres.py | 
-	python ~/CSB_scripts/pdbtools/pdb_reatom.py > "${i%.*}_clean.pdb"
+	python ~/MODOMAX_scripts/pdbtools/pdb_delhetatm.py $i | 
+	python ~/MODOMAX_scripts/pdbtools/pdb_selaltloc.py | 
+	python ~/MODOMAX_scripts/pdbtools/pdb_occ.py | 
+	python ~/MODOMAX_scripts/pdbtools/pdb_chain.py -A | 
+	python ~/MODOMAX_scripts/pdbtools/pdb_reres.py | 
+	python ~/MODOMAX_scripts/pdbtools/pdb_reatom.py > "${i%.*}_clean.pdb"
 done
 
 ls -p1 -- *.pdb | grep -v / | grep -v '_clean.pdb' | xargs rm -f
