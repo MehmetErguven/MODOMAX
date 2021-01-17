@@ -1,7 +1,8 @@
 MODOMAX is a new repository for applications of computational structural biology tools and programs.
 
-MODOMAX is constituted of a bundle of Bash scripts and python3 scripts that provide an automatized workflow.
+Currently, MODOMAX is constituted of a bundle of interconnected Bash scripts and python3 scripts that provide an automatized workflow for the modeling program named MODELLER.
 
+The ultimate aim of the project is to combine homology modeling, ligand docking, and molecular dynamics simulation in an all-in-one, user-friendly stand-alone package.
 
 ## Dependencies:
 
